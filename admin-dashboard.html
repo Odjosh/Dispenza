@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar bg-light shadow-sm">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Admin Dashboard</span>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <h5 class="mb-3">National Stock Overview</h5>
+    <div class="row text-center mb-4">
+      <div class="col-6">
+        <div class="card">
+          <div class="card-body">
+            Total Clinics<br><strong>128</strong>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-body">
+            Clinics with Low Stock<br><strong>14</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6>Recent Low Stock Alerts</h6>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">Clinic A - Paracetamol below 20 units</li>
+      <li class="list-group-item">Clinic C - Amoxicillin out of stock</li>
+      <li class="list-group-item">Clinic D - Ibuprofen below 10 units</li>
+    </ul>
+
+    <h6>Reports Access</h6>
+    <a href="reports.html" class="btn btn-outline-primary w-100 mb-3">View Reports</a>
+
+    <h6>User Management</h6>
+    <a href="#" class="btn btn-outline-secondary w-100">Manage Users (Coming Soon)</a>
+  </div>
+
+    <!-- Bottom Navigation -->
+   <nav class="navbar fixed-bottom bg-light border-top">
+    <div class="container d-flex justify-content-around text-center">
+      <a href="homepage.html" class="text-decoration-none text-dark fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/>
+        </svg><br>
+        <small>Home</small>
+      </a>
+      <a href="dispense.html" class="text-decoration-none text-dark fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path d="M440-280h80v-160h160v-80H520v-160h-80v160H280v80h160v160ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/>
+        </svg><br>
+        <small>Dispense</small>
+      </a>
+      <a href="admin-dashboard.html" class="text-decoration-none text-dark fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path d="M600-160v-280h280v280H600ZM440-520v-280h440v280H440ZM80-160v-280h440v280H80Zm0-360v-280h280v280H80Zm440-80h280v-120H520v120ZM160-240h280v-120H160v120Zm520 0h120v-120H680v120ZM160-600h120v-120H160v120Zm360 0Zm-80 240Zm240 0ZM280-600Z"/>
+        </svg><br>
+        <small>Dashboard</small>
+      </a>
+      <a href="inventory.html" class="text-decoration-none text-dark fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path d="M620-163 450-333l56-56 114 114 226-226 56 56-282 282Zm220-397h-80v-200h-80v120H280v-120h-80v560h240v80H200q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h167q11-35 43-57.5t70-22.5q40 0 71.5 22.5T594-840h166q33 0 56.5 23.5T840-760v200ZM480-760q17 0 28.5-11.5T520-800q0-17-11.5-28.5T480-840q-17 0-28.5 11.5T440-800q0 17 11.5 28.5T480-760Z"/>
+        </svg><br>
+        <small>Inventory</small>
+      </a>
+      <a href="reports.html" class="text-decoration-none text-dark fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+          <path d="M280-280h80v-200h-80v200Zm320 0h80v-400h-80v400Zm-160 0h80v-120h-80v120Zm0-200h80v-80h-80v80ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/>
+        </svg><br>
+        <small>Reports</small>
+      </a>
+    </div>
+  </nav>
+</body>
+</html>
