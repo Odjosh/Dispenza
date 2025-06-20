@@ -1,0 +1,41 @@
+
+:root {
+  --color-bg: #fdf6ec;
+  --color-primary: #6dd5b3;
+  --color-accent: #b20000;
+  --color-text-dark: #333333;
+  --color-text-muted: #666666;
+  --color-card: #ffffff;
+  --color-border: #e0dcd1;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-dark);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-accent);
+}
+
+p {
+  color: var(--color-text-muted);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #5bc8a4;
+  border-color: #5bc8a4;
+}
