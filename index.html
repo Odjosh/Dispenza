@@ -82,6 +82,18 @@
       padding: 0.5rem 1rem;
       border-radius: 6px;
     }
+    .logo img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+      background-color: white; /* Optional: adds contrast */
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(255, 255, 255, 0.35);
+      border: 1.5px solid rgba(255, 255, 255, 0.25);
+    }
   </style>
 </head>
 <body>
@@ -91,7 +103,10 @@
     <div class="row align-items-center">
       <!-- Left Text Section -->
      <div class="content-wrapper">
-        <h1>Disp<span style="display:inline-block; transform: scaleX(-1);">e</span>nza</h1>
+      <div class="logo">
+        <img src="./images/Dispenza logo.PNG" height="150px" width="150px"alt="">
+      </div>  
+        <!-- <h1>Disp<span style="display:inline-block; transform: scaleX(-1);">e</span>nza</h1> -->
         <p class="intro-text">
           A smart, offline-capable medicine tracking and dispensing system for hospitals. It allows users to log medicine use, manage stock levels, and sync data automatically when online. Designed for clinics with limited internet access, it helps prevent drug shortages and improves patient care.
         </p>
